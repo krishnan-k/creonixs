@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 528 500" preserveAspectRatio="xMidYMin slice" font-family="Arial,Helvetica,sans-serif">
+<rect width="528" height="500" rx="12" fill="#fff"/>
+<path d="M0 12a12 12 0 0 1 12-12h504a12 12 0 0 1 12 12v32H0z" fill="#fff1ea"/>
+<circle cx="24" cy="22" r="5" fill="#ff7b7b"/><circle cx="41" cy="22" r="5" fill="#ffc861"/><circle cx="58" cy="22" r="5" fill="#5fd38d"/>
+<rect x="90" y="12" width="300" height="20" rx="10" fill="#fff"/>
+<text x="32" y="92" font-size="24" font-weight="700" fill="#2a1a12">Installing your theme</text>
+<rect x="32" y="108" width="464" height="12" rx="6" fill="#ffe4d9"/><rect x="32" y="108" width="334" height="12" rx="6" fill="#ff6a2b"/>
+<text x="496" y="92" font-size="16" font-weight="700" fill="#ff6a2b" text-anchor="end">72%</text>
+<g font-size="16" fill="#2a1a12">
+<g transform="translate(200 142)"><rect width="296" height="44" rx="10" fill="#fff6f1"/><circle cx="24" cy="22" r="12" fill="#2fc17a"/><path d="M18 22l5 5 9-10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28">Upload theme</text><rect x="206" y="17" width="70" height="10" rx="5" fill="#ffd3bd"/></g>
+<g transform="translate(200 196)"><rect width="296" height="44" rx="10" fill="#fff6f1"/><circle cx="24" cy="22" r="12" fill="#2fc17a"/><path d="M18 22l5 5 9-10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28">Create pages</text><rect x="206" y="17" width="70" height="10" rx="5" fill="#ffd3bd"/></g>
+<g transform="translate(200 250)"><rect width="296" height="44" rx="10" fill="#fff6f1"/><circle cx="24" cy="22" r="12" fill="#2fc17a"/><path d="M18 22l5 5 9-10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28">Add sections</text><rect x="206" y="17" width="70" height="10" rx="5" fill="#ffd3bd"/></g>
+<g transform="translate(200 304)"><rect width="296" height="44" rx="10" fill="#ffe4d9" stroke="#ff6a2b" stroke-width="2"/><circle cx="24" cy="22" r="12" fill="none" stroke="#ffc9ae" stroke-width="4"/><path d="M24 10a12 12 0 0 1 12 12" fill="none" stroke="#ff6a2b" stroke-width="4" stroke-linecap="round"/><text x="50" y="28" font-weight="700">Set up collections</text></g>
+</g>
+<g transform="translate(34 150)"><path d="M0 40L60 14l60 26v66l-60 26L0 106z" fill="#ff9a6b"/><path d="M0 40l60 26 60-26" fill="none" stroke="#ff6a2b" stroke-width="3"/><path d="M60 66v66" stroke="#ff6a2b" stroke-width="3"/><path d="M0 40L60 14l60 26-60 26z" fill="#ffc2a3"/></g>
+<g transform="translate(32 366)">
+<rect width="144" height="90" rx="10" fill="#ffd3bd"/><rect x="152" width="144" height="90" rx="10" fill="#ffb999"/><rect x="304" width="144" height="90" rx="10" fill="#ff9a6b"/>
+</g>
+</svg>

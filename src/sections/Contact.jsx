@@ -12,7 +12,12 @@ export default function Contact() {
       </div>
       <div className="contact">
         <motion.div className="panel info" initial={{ opacity: 0, rotateY: 18, x: -40 }} whileInView={{ opacity: 1, rotateY: 0, x: 0 }}
-          viewport={{ once: true, amount: 0.3 }} transition={{ duration: 1.1, ease }}>
+          viewport={{ once: true, amount: 0.3 }} transition={{ duration: 1.1, ease }}
+          onPointerMove={(e) => {
+            const r = e.currentTarget.getBoundingClientRect()
+            e.currentTarget.style.setProperty('--x', e.clientX - r.left + 'px')
+            e.currentTarget.style.setProperty('--y', e.clientY - r.top + 'px')
+          }}>
           <h3>We’re here to help</h3>
           <p>Fill the form and your message reaches us by email. Please include your store link so we can check quickly.</p>
           <ul>

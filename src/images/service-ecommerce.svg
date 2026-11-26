@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 290" preserveAspectRatio="xMidYMid slice">
+<rect width="520" height="290" fill="#dfe6ff"/>
+<circle cx="470" cy="30" r="90" fill="#c4d0ff"/><circle cx="40" cy="270" r="70" fill="#cdd8ff"/>
+<g transform="translate(60 28)">
+<rect width="400" height="240" rx="16" fill="#fff" stroke="#b9c6ff" stroke-width="2"/>
+<path d="M0 16a16 16 0 0 1 16-16h368a16 16 0 0 1 16 16v26H0z" fill="#eef1ff"/>
+<circle cx="20" cy="21" r="5" fill="#ff7b7b"/><circle cx="37" cy="21" r="5" fill="#ffc861"/><circle cx="54" cy="21" r="5" fill="#5fd38d"/>
+<rect x="80" y="12" width="230" height="18" rx="9" fill="#fff"/>
+<rect x="18" y="56" width="364" height="64" rx="10" fill="#2f4ff0"/>
+<rect x="34" y="72" width="130" height="12" rx="6" fill="#fff"/><rect x="34" y="92" width="86" height="8" rx="4" fill="#9fb2ff"/>
+<rect x="290" y="76" width="70" height="24" rx="12" fill="#fff"/>
+<g>
+<rect x="18" y="132" width="110" height="92" rx="10" fill="#f3f5ff"/><rect x="26" y="140" width="94" height="46" rx="8" fill="#9fb2ff"/><rect x="26" y="194" width="60" height="7" rx="3.5" fill="#2b2f45"/><rect x="26" y="208" width="34" height="7" rx="3.5" fill="#2f4ff0"/>
+<rect x="145" y="132" width="110" height="92" rx="10" fill="#f3f5ff"/><rect x="153" y="140" width="94" height="46" rx="8" fill="#c4d0ff"/><rect x="153" y="194" width="60" height="7" rx="3.5" fill="#2b2f45"/><rect x="153" y="208" width="34" height="7" rx="3.5" fill="#2f4ff0"/>
+<rect x="272" y="132" width="110" height="92" rx="10" fill="#f3f5ff"/><rect x="280" y="140" width="94" height="46" rx="8" fill="#7f95ff"/><rect x="280" y="194" width="60" height="7" rx="3.5" fill="#2b2f45"/><rect x="280" y="208" width="34" height="7" rx="3.5" fill="#2f4ff0"/>
+</g>
+</g>
+<g transform="translate(428 196)">
+<circle r="38" fill="#0f1224"/>
+<path d="M-18-16h6l5 20h20l5-14h-28" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-4" cy="14" r="3.5" fill="#fff"/><circle cx="16" cy="14" r="3.5" fill="#fff"/>
+<circle cx="24" cy="-24" r="12" fill="#ff5c7a"/><text x="24" y="-19" font-family="Arial" font-weight="700" font-size="14" fill="#fff" text-anchor="middle">3</text>
+</g>
+</svg>

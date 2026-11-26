@@ -1,14 +1,11 @@
 import { motion } from 'motion/react'
 import { me } from '../data'
-import { Arrow, Button, ease } from '../ui'
+import { Button, ease } from '../ui'
 
 export default function Hero({ ready }) {
   const rise = (d) => ({ initial: { opacity: 0, y: 24 }, animate: ready ? { opacity: 1, y: 0 } : {}, transition: { duration: 0.9, delay: d, ease } })
   return (
     <header className="hero">
-      <motion.div {...rise(0.05)}>
-        <a className="badge" href="#/portfolio"><b>New</b>See our recent works<Arrow size={11} /></a>
-      </motion.div>
       <h1 aria-label={me.headline.join(' ')}>
         {me.headline.map((line, l) => (
           <span key={l} className="line" aria-hidden="true">
@@ -27,9 +24,8 @@ export default function Hero({ ready }) {
       </motion.p>
       <motion.div className="row" {...rise(0.75)}>
         <Button href="#/portfolio">View our work</Button>
-        <Button ghost href="#help">Docs &amp; Support</Button>
+        <Button ghost href="#/docs">Docs &amp; Support</Button>
       </motion.div>
-      <motion.small {...rise(0.85)}>Made for Shopify stores</motion.small>
     </header>
   )
 }

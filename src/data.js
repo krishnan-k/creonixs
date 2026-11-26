@@ -3,6 +3,13 @@ import serenova from './images/serenova-spa.webp'
 import electronicsHub from './images/electronics-hub.webp'
 import kajana from './images/kajana.webp'
 import electrotech from './images/electrotech.webp'
+import svcEcommerce from './images/service-ecommerce.svg'
+import svcThemes from './images/service-themes.svg'
+import svcInstall from './images/service-install.svg'
+import svcCustomize from './images/service-customize.svg'
+import workSetup from './images/work-setup.svg'
+import workDesign from './images/work-design.svg'
+import workSupport from './images/work-support.svg'
 
 // Company details ellam inga mattum maathunga.
 export const me = {
@@ -27,24 +34,30 @@ export const me = {
 export const menu = [
   { label: 'Portfolio', url: '#/portfolio' },
   { label: 'Help', url: '#help' },
-  { label: 'Docs', url: '#help' },
+  { label: 'Docs', url: '#/docs' },
   { label: 'FAQ', url: '#faq' },
+]
+
+// Docs page la irukka theme documentation. Pudhu theme na inga oru line add pannunga.
+export const docs = [
+  { title: 'Sprintova Docs', text: 'Setup, collection banners, mega menu, low-stock bar and everything else for the Sprintova sneaker theme.', tags: ['Shopify', 'Liquid'], url: 'https://kanhathemes.gitbook.io/sprintova-docs', image: sprintova },
+  { title: 'Electronics Hub Docs', text: 'Install, demo import, product showcase and customization guides for the Electronics Hub theme.', tags: ['Shopify', 'Liquid'], url: 'https://kanhathemes.gitbook.io/electronics-hub-docs', image: electronicsHub },
 ]
 
 // Home page la irukka 3 work cards
 export const workCards = [
-  { title: 'Store setup and installation', text: 'We install your theme and set up the pages, sections and collections your store needs.', image: sprintova, kind: 'sections', color: '#ffe4d9' },
-  { title: 'Store design and customization', text: 'We match colours, fonts and layouts to your brand, so your store looks like your own.', image: serenova, kind: 'style', color: '#e9e5fb' },
-  { title: 'Theme support and bug fixes', text: 'Send your store link with screenshots. We check the issue and reply within 24 hours.', image: electronicsHub, kind: 'support', color: '#d8f0e0' },
+  { title: 'Store setup and installation', text: 'We install your theme and set up the pages, sections and collections your store needs.', image: workSetup, kind: 'sections', color: '#ffe4d9' },
+  { title: 'Store design and customization', text: 'We match colours, fonts and layouts to your brand, so your store looks like your own.', image: workDesign, kind: 'style', color: '#e9e5fb' },
+  { title: 'Theme support and bug fixes', text: 'Send your store link with screenshots. We check the issue and reply within 24 hours.', image: workSupport, kind: 'support', color: '#d8f0e0' },
 ]
 
 export const skills = ['Shopify', 'Liquid', 'Ecommerce', 'Theme setup', 'Customization', 'React', 'JavaScript', 'Figma']
 
 export const services = [
-  { title: 'Ecommerce websites', text: 'Online store creation', hue: 225 },
-  { title: 'Shopify themes', text: 'Theme development', hue: 320 },
-  { title: 'Theme installation', text: 'Setup on your store', hue: 265 },
-  { title: 'Customization', text: 'Design changes and bug fixes', hue: 195 },
+  { title: 'Ecommerce websites', text: 'Online store creation', hue: 225, image: svcEcommerce },
+  { title: 'Shopify themes', text: 'Theme development', hue: 320, image: svcThemes },
+  { title: 'Theme installation', text: 'Setup on your store', hue: 265, image: svcInstall },
+  { title: 'Customization', text: 'Design changes and bug fixes', hue: 195, image: svcCustomize },
 ]
 
 // Recent works. Images src/images/ folder la irukku (mela import aagudhu).

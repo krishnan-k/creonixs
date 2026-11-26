@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import Lenis from 'lenis'
 
-const pageOf = (hash) => (hash.startsWith('#/portfolio') ? 'portfolio' : 'home')
+const pageOf = (hash) => (hash.startsWith('#/portfolio') ? 'portfolio' : hash.startsWith('#/docs') ? 'docs' : 'home')
+const titles = { portfolio: 'Portfolio | Creonixs', docs: 'Docs & Support | Creonixs', home: 'Creonixs' }
 
 // Chinna hash router + smooth scroll. Server setting ethuvum thevai illa.
 export function useRouter() {
@@ -47,7 +48,7 @@ export function useRouter() {
 
   // Pudhu page render aanadhum sariyaana edathuku scroll
   useEffect(() => {
-    document.title = page === 'portfolio' ? 'Portfolio | Creonixs' : 'Creonixs'
+    document.title = titles[page]
     const t = setTimeout(() => scrollToHash(pending.current, true), 60)
     return () => clearTimeout(t)
   }, [page])

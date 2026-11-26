@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { motion, AnimatePresence, MotionConfig, useMotionValue, useSpring } from 'motion/react'
 import { useRouter } from './useRouter'
 import Portfolio from './pages/Portfolio'
+import Docs from './pages/Docs'
 import { me } from './data'
 import Header from './Header'
 import Hero from './sections/Hero'
@@ -56,6 +57,8 @@ export default function App() {
       <motion.div key={page} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
         {page === 'portfolio' ? (
           <main><Portfolio /></main>
+        ) : page === 'docs' ? (
+          <main><Docs /></main>
         ) : (
           <>
             <Hero ready={ready} />

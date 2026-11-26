@@ -32,7 +32,7 @@ export default function Services() {
             initial={{ opacity: 0, scale: 0.4 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.4 }}>
             <motion.div className="board" animate={{ y: `${-active * 100}%` }} transition={{ duration: 0.6, ease }}>
               {services.map((s) => (
-                <div key={s.title} className="tile" style={{ '--h': s.hue }}><b /><b /><b /><span>{s.title}</span></div>
+                <div key={s.title} className="tile" style={{ '--h': s.hue }}><img src={s.image} alt="" draggable="false" /><span>{s.title}</span></div>
               ))}
             </motion.div>
           </motion.div>
