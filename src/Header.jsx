@@ -39,10 +39,12 @@ export default function Header({ page }) {
       {/* Page mela naduvula logo */}
       <div className="top-logo"><Logo stacked /></div>
 
-      <button ref={toggle} className="menu-toggle" aria-expanded={open} aria-controls="drawer" onClick={() => setOpen(true)}>
+      <button ref={toggle} className="menu-toggle" aria-label="Menu" aria-expanded={open} aria-controls="drawer" onClick={() => setOpen(true)}>
         <i aria-hidden="true" /><span>Menu</span>
       </button>
-      <a className="top-cta" href="#help">Contact us</a>
+      <a className="top-cta" href="#help" aria-label="Contact us"><span>Contact us</span>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3" /><path d="m4 7.5 8 6 8-6" /></svg>
+      </a>
       <a className="help-fab" href="#help" aria-label="Need help?"><b aria-hidden="true">?</b>Need help?</a>
 
       <AnimatePresence>
